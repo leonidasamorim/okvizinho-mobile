@@ -8,9 +8,14 @@ module.exports = {
       colors: {
         primary: {
           DEFAULT: "#1C3C9D",
+          700: "#061033",
+        },
+        gray: {
+          DEFAULT: "#C8D3D5",
         },
         secundary: {
           DEFAULT: "#4064B9",
+          200: "#A4B8C4",
         },
       },
       fontFamily: {

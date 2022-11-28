@@ -5,14 +5,19 @@
 			"marginRight": 16
 		}
 	},
+	"mt-4": {
+		"style": {
+			"marginTop": 16
+		}
+	},
 	"mt-8": {
 		"style": {
 			"marginTop": 32
 		}
 	},
-	"mb-10": {
+	"mb-12": {
 		"style": {
-			"marginBottom": 40
+			"marginBottom": 48
 		}
 	},
 	"ml-4": {
@@ -20,14 +25,9 @@
 			"marginLeft": 16
 		}
 	},
-	"mt-4": {
+	"mt-6": {
 		"style": {
-			"marginTop": 16
-		}
-	},
-	"mb-12": {
-		"style": {
-			"marginBottom": 48
+			"marginTop": 24
 		}
 	},
 	"flex": {
@@ -96,22 +96,28 @@
 			"backgroundColor": "rgb(255 255 255 / var(--tw-bg-opacity))"
 		}
 	},
-	"bg-primary": {
-		"style": {
-			"--tw-bg-opacity": 1,
-			"backgroundColor": "rgb(28 60 157 / var(--tw-bg-opacity))"
-		}
-	},
 	"bg-secundary": {
 		"style": {
 			"--tw-bg-opacity": 1,
 			"backgroundColor": "rgb(64 100 185 / var(--tw-bg-opacity))"
 		}
 	},
+	"bg-primary-700": {
+		"style": {
+			"--tw-bg-opacity": 1,
+			"backgroundColor": "rgb(6 16 51 / var(--tw-bg-opacity))"
+		}
+	},
 	"px-8": {
 		"style": {
 			"paddingLeft": 32,
 			"paddingRight": 32
+		}
+	},
+	"px-4": {
+		"style": {
+			"paddingLeft": 16,
+			"paddingRight": 16
 		}
 	},
 	"text-center": {
@@ -124,16 +130,44 @@
 			"fontFamily": "WorkSans_500Medium"
 		}
 	},
+	"font-wSemiBold": {
+		"style": {
+			"fontFamily": "WorkSans_600SemiBold"
+		}
+	},
+	"font-wRegular": {
+		"style": {
+			"fontFamily": "WorkSans_400Regular"
+		}
+	},
 	"text-lg": {
 		"style": {
 			"fontSize": 18,
 			"lineHeight": 28
 		}
 	},
+	"text-2xl": {
+		"style": {
+			"fontSize": 24,
+			"lineHeight": 32
+		}
+	},
+	"text-base": {
+		"style": {
+			"fontSize": 16,
+			"lineHeight": 24
+		}
+	},
 	"text-primary": {
 		"style": {
 			"--tw-text-opacity": 1,
 			"color": "rgb(28 60 157 / var(--tw-text-opacity))"
+		}
+	},
+	"text-secundary-200": {
+		"style": {
+			"--tw-text-opacity": 1,
+			"color": "rgb(164 184 196 / var(--tw-text-opacity))"
 		}
 	},
 	"text-white": {
@@ -146,6 +180,12 @@
 		"style": {
 			"--tw-text-opacity": 1,
 			"color": "rgb(64 100 185 / var(--tw-text-opacity))"
+		}
+	},
+	"text-primary-700": {
+		"style": {
+			"--tw-text-opacity": 1,
+			"color": "rgb(6 16 51 / var(--tw-text-opacity))"
 		}
 	},
 	"underline": {

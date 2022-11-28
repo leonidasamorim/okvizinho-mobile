@@ -8,7 +8,26 @@ const Intro = () => {
   const tw = useTailwind();
   return (
     <View style={tw("flex-1 bg-secundary")}>
-      <View style={tw("flex-1 bg-white rounded-3xl")}></View>
+      <View
+        style={tw(
+          "flex-1 bg-white rounded-3xl justify-center items-center px-4"
+        )}
+      >
+        <Text
+          style={tw(
+            "font-wSemiBold text-2xl text-primary text-center text-primary-700"
+          )}
+        >
+          Encontre sua{"\n"}garagem perfeita.
+        </Text>
+        <Text
+          style={tw(
+            "font-wRegular mt-6 text-base text-secundary-200 text-center"
+          )}
+        >
+          Descubra centenas de garagem, encontre a sua e alugue ou impreste-a.
+        </Text>
+      </View>
       <View style={tw("mx-4 mt-8 mb-12")}>
         <View style={tw("flex-row items-center justify-center")}>
           <Button
