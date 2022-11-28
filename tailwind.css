@@ -19,6 +19,10 @@
   margin-top: 1rem
 }
 
+.mb-12 {
+  margin-bottom: 3rem
+}
+
 .flex {
   display: flex
 }
@@ -66,6 +70,11 @@
   background-color: rgb(28 60 157 / var(--tw-bg-opacity))
 }
 
+.bg-secundary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 100 185 / var(--tw-bg-opacity))
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem
@@ -92,6 +101,11 @@
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.text-secundary {
+  --tw-text-opacity: 1;
+  color: rgb(64 100 185 / var(--tw-text-opacity))
 }
 
 .underline {

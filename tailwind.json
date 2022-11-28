@@ -25,6 +25,11 @@
 			"marginTop": 16
 		}
 	},
+	"mb-12": {
+		"style": {
+			"marginBottom": 48
+		}
+	},
 	"flex": {
 		"style": {
 			"display": "flex"
@@ -97,6 +102,12 @@
 			"backgroundColor": "rgb(28 60 157 / var(--tw-bg-opacity))"
 		}
 	},
+	"bg-secundary": {
+		"style": {
+			"--tw-bg-opacity": 1,
+			"backgroundColor": "rgb(64 100 185 / var(--tw-bg-opacity))"
+		}
+	},
 	"px-8": {
 		"style": {
 			"paddingLeft": 32,
@@ -129,6 +140,12 @@
 		"style": {
 			"--tw-text-opacity": 1,
 			"color": "rgb(255 255 255 / var(--tw-text-opacity))"
+		}
+	},
+	"text-secundary": {
+		"style": {
+			"--tw-text-opacity": 1,
+			"color": "rgb(64 100 185 / var(--tw-text-opacity))"
 		}
 	},
 	"underline": {
