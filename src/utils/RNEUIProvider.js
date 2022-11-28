@@ -7,12 +7,10 @@ const RNEUIProvider = ({ children }) => {
 
   const theme = createTheme({
     components: {
-      Input: {
-        renderErrorMessage: false,
-        inputContainerStyle: tw("border-0 py-0.5"),
-        containerStyle: tw("my-1 h-12 p-0 border rounded-md"),
-        rightIconContainerStyle: tw("h-auto"),
-        errorStyle: tw("text-xs text-red-500 m-1"),
+      Button: {
+        titleStyle: tw("text-primary text-lg"),
+        containerStyle: tw("rounded-lg"),
+        buttonStyle: tw("bg-white px-8"),
       },
     },
   });
