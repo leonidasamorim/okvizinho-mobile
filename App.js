@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import utilities from "./tailwind.json";
 
-import RNEUIProvider from "./src/constants/RNEUIProvider";
+import RNEUIProvider from "./src/utils/RNEUIProvider";
 import Routes from "./src/routes/index.routes";
 
 export default function App() {
