@@ -13,6 +13,13 @@ module.exports = {
           DEFAULT: "#4064B9",
         },
       },
+      fontFamily: {
+        wLight: "WorkSans_300Light",
+        wRegular: "WorkSans_400Regular",
+        wedium: "WorkSans_500Medium",
+        wSemiBold: "WorkSans_600SemiBold",
+        wBold: "WorkSans_700Bold",
+      },
     },
   },
   plugins: [],
