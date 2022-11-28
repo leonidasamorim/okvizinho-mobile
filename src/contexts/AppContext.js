@@ -96,7 +96,7 @@ function AppProvider(props) {
   };
 
   const hideSplashScreen = useCallback(async () => {
-    if (state.isReady) await SplashScreen.hideAsync();
+    // if (state.isReady) await SplashScreen.hideAsync();
   }, [state.isReady]);
 
   if (!state.isReady) return null;

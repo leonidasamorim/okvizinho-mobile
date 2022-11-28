@@ -108,6 +108,11 @@
 			"textAlign": "center"
 		}
 	},
+	"font-wMedium": {
+		"style": {
+			"fontFamily": "WorkSans_500Medium"
+		}
+	},
 	"text-lg": {
 		"style": {
 			"fontSize": 18,

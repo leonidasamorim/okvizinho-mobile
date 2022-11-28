@@ -8,7 +8,7 @@ const RNEUIProvider = ({ children }) => {
   const theme = createTheme({
     components: {
       Button: {
-        titleStyle: tw("text-primary text-lg"),
+        titleStyle: tw("text-primary text-lg font-wMedium"),
         containerStyle: tw("rounded-lg"),
         buttonStyle: tw("bg-white px-8"),
       },
