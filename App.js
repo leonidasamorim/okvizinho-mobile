@@ -1,15 +1,21 @@
 import { TailwindProvider } from "tailwind-rn";
 import { NavigationContainer } from "@react-navigation/native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 import utilities from "./tailwind.json";
 
-import Routes from "./src/routes";
+import RNEUIProvider from "./src/constants/RNEUIProvider";
+import Routes from "./src/routes/index.routes";
 
 export default function App() {
   return (
-    <TailwindProvider utilities={utilities}>
-      <NavigationContainer>
-        <Routes />
-      </NavigationContainer>
-    </TailwindProvider>
+    <SafeAreaProvider>
+      <TailwindProvider utilities={utilities}>
+        <RNEUIProvider>
+          <NavigationContainer>
+            <Routes />
+          </NavigationContainer>
+        </RNEUIProvider>
+      </TailwindProvider>
+    </SafeAreaProvider>
   );
 }

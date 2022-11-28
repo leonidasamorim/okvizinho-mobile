@@ -1,16 +1,56 @@
-.flex-1 {
-  flex: 1 1 0%
+.m-1 {
+  margin: 0.25rem
 }
 
-.items-center {
-  align-items: center
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem
 }
 
-.justify-center {
-  justify-content: center
+.flex {
+  display: flex
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(28 60 157 / var(--tw-bg-opacity))
+.h-12 {
+  height: 3rem
+}
+
+.h-auto {
+  height: auto
+}
+
+.rounded-md {
+  border-radius: 0.375rem
+}
+
+.border-0 {
+  border-width: 0px
+}
+
+.border {
+  border-width: 1px
+}
+
+.p-0 {
+  padding: 0px
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity))
 }

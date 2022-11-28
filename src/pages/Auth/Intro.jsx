@@ -1,7 +1,5 @@
 import React from "react";
-import { View } from "react-native";
-
-// import { Container } from './styles';
+import { View, Text } from "react-native";
 
 const Intro = () => {
   return (
