@@ -1,6 +1,8 @@
 import React from "react";
 
 import { View, Text, Image } from "react-native";
+
+import { useNavigation } from "@react-navigation/native";
 import { Button } from "@rneui/themed";
 import { useTailwind } from "tailwind-rn";
 
@@ -8,6 +10,8 @@ import Logo from "../../assets/logo.png";
 
 const Intro = () => {
   const tw = useTailwind();
+  const navigation = useNavigation();
+
   return (
     <View style={tw("flex-1 bg-secundary")}>
       <View
@@ -43,6 +47,7 @@ const Intro = () => {
             title="Fazer Login"
             containerStyle={tw("ml-4")}
             titleStyle={tw("text-secundary")}
+            onPress={() => navigation.navigate("Login")}
           />
         </View>
         <Text style={tw("text-center mt-4 text-white font-wMedium")}>
