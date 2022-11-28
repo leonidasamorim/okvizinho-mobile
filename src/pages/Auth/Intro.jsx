@@ -1,8 +1,10 @@
 import React from "react";
 
-import { View, Text } from "react-native";
+import { View, Text, Image } from "react-native";
 import { Button } from "@rneui/themed";
 import { useTailwind } from "tailwind-rn";
+
+import Logo from "../../assets/logo.png";
 
 const Intro = () => {
   const tw = useTailwind();
@@ -13,6 +15,7 @@ const Intro = () => {
           "flex-1 bg-white rounded-3xl justify-center items-center px-4"
         )}
       >
+        <Image source={Logo} style={{ transform: [{ scale: 0.6 }] }} />
         <Text
           style={tw(
             "font-wSemiBold text-2xl text-primary text-center text-primary-700"
